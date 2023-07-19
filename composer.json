@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/hindaw2",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "eshaq",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "App",
+      "App\\MyLibrary\\": "MyLibrary"
+    }
+  }
+}

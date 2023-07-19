@@ -1,0 +1,81 @@
+main.latesBooks a{
+    display: none;
+    height: auto;
+    width: auto;
+}
+@media (min-width:850px){
+
+
+    main{
+        font-size: 25px;
+    }
+   
+   main > div{
+  
+    display: flex;
+   flex-direction:row;
+   
+   font-size: 18px;
+width: 100%;
+} 
+
+
+main h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+   main .aboutus{
+      
+      
+    height: 150px;
+   
+    align-items: center;
+   
+   }
+main > div > div{
+    padding: 50px;
+    
+}
+   main > div > div:first-child{
+       width: 20%;
+      box-sizing: border-box;
+       border-left: 2px solid rgb(230,230,230);
+
+   }
+  
+   .latesBooks
+   {
+       display: flex;
+       flex-wrap: wrap;
+       width: 80%;
+   }
+   .latesBooks a img{
+       height: 380px;
+       width: 285px;
+       margin: 15px;
+       border: 2px solid rgb(230,230,230);
+   }
+   .latesBooks a img:hover{
+       opacity: 0.1;
+   }
+   .whatApp{
+       text-align: justify;
+       width: 60%;
+
+   } 
+}
+main > div{
+    margin: 20px;
+    font-size: 18px;
+}
+main h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+main.latesBooks a img{
+   width: 30%;
+margin: 1%; 
+
+border: 1px solid rgb(230,230,230);;
+}
+

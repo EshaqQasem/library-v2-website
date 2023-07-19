@@ -1,0 +1,19 @@
+{
+  "name": "vendor_name/mylibrary",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "eshaq",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "MyLibrary\\": "../mylibrary"
+    }
+  }
+}
